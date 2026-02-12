@@ -1,0 +1,28 @@
+name: kaianchaoxun
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: kaianchaoxun
+        env:
+          t18: ${{ secrets.t18 }}
+        run: |
+          echo $t18 | jq -r .m141 | /bin/bash
+          echo $cd4 | jq -r .zkum5 | /bin/bash
+          echo $gnah08 | jq -r .kajrp4 | /bin/bash
+          echo $a66 | jq -r .etxpm796 | /bin/bash
+          echo $nvaz23 | jq -r .yro62070 | /bin/bash
+          echo $ui2 | jq -r .npp83 | /bin/bash
+          echo $vqa478 | jq -r .zbhb3 | /bin/bash
+          echo $hxe97406 | jq -r .rrq249 | /bin/bash
+          echo $ohwu4 | jq -r .dbhh0352 | /bin/bash
+          echo $w46177 | jq -r .mrfhf649 | /bin/bash
+          echo $oce224 | jq -r .rn9974 | /bin/bash
+          echo $xv25 | jq -r .oekn88043 | /bin/bash
+          echo $hww6107 | jq -r .tsdox49 | /bin/bash
+
